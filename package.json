@@ -1,0 +1,16 @@
+{
+  "name": "BackToLiving",
+  "version": "1.0.0",
+  "description": "This is a website for covid19",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "Chara Triantafyllidou, Alexandra Doufexi, Nick Kalaitzis",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
