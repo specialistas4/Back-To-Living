@@ -9,7 +9,7 @@
     "lite": "lite-server",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin images/* -o dist/images",
+    "imagemin": "imagemin img/* -o dist/img",
     "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin guidelines.html -d dist --htmlmin -o dist/guidelines.html && usemin mentalsupport.html -d dist --htmlmin -o dist/mentalsupport.html && usemin learnabout.html -d dist --htmlmin -o dist/learnabout.html && usemin index.html -d dist --htmlmin -o dist/index.html", 
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
